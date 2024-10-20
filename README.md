@@ -46,7 +46,7 @@ Reference: [HOW TO INSTALL CUDA ON UBUNTU | CUDA INSTALLATION](https://www.youtu
 ```
 sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake
 ```
-Reference: https://askubuntu.com/questions/1404263/how-do-you-install-qt-on-ubuntu22-04
+Reference: [How do you install qt on ubuntu22.04](https://askubuntu.com/questions/1404263/how-do-you-install-qt-on-ubuntu22-04)
 
 4. Make sure to install VSCode from Micorsoft website (and **not* the Ubuntu store): https://code.visualstudio.com/
 
