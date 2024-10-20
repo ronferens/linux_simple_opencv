@@ -39,7 +39,7 @@ sudo apt -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
 
  sudo apt-get install ubuntu-restricted-extras
 ```
-Reference: https://www.youtube.com/watch?v=fyHbV3XhBoM
+Reference: [HOW TO INSTALL CUDA ON UBUNTU | CUDA INSTALLATION](https://www.youtube.com/watch?v=fyHbV3XhBoM)
 
 2. For CUDA support make sure to unstall both CUDATool Kit and cuDNN
 3. Make sure QT is installed on your PC: </br >
@@ -57,7 +57,8 @@ Reference: https://askubuntu.com/questions/1404263/how-do-you-install-qt-on-ubun
 4. Create a 'build' folder
 5. Run cmake-gui from the 'build' folder
 6. Load the opencv sources (from the unzipped file)
-7. Run *Configure' and update the required field (Refefnce: https://www.youtube.com/watch?v=X6cXBqIz464)
+7. Run *Configure' and update the required field (Refefnce: [Install LATEST OpenCV 4.8.0 | Ubuntu OpenCV Installation 2023
+](https://www.youtube.com/watch?v=X6cXBqIz464))
 8. Run *Generate*
 9. Run 'make -j8' (Use *nproc* to find out the number of available cores)
 10. The last command is: 'sudo make install'
@@ -79,14 +80,6 @@ g++ -std=c++14 opencvTest.cpp `pkg-config --libs --cflags opencv4` -o output
 Reference: https://www.youtube.com/watch?v=HQJlsmIUXOQ
 
 3. Create a *c_cpp_properties.json* and *Makefile* files.</br >
-Reference: https://girish-ajay.medium.com/installing-opencv-in-linux-and-configuration-with-visual-studio-code-9dd668275d5b
+Reference: [Installing OpenCV in Linux and configuration with Visual Studio Code](https://girish-ajay.medium.com/installing-opencv-in-linux-and-configuration-with-visual-studio-code-9dd668275d5b)
 
 The code in this projects is based on method #3.
-
-
-
-# References
-- https://girish-ajay.medium.com/installing-opencv-in-linux-and-configuration-with-visual-studio-code-9dd668275d5b
-- [How to Build and Install OpenCV from Source](https://www.youtube.com/watch?v=_fqpYLM6SCw)
-- https://www.youtube.com/watch?v=fyHbV3XhBoM
-- https://www.youtube.com/watch?v=X6cXBqIz464&t=0s
