@@ -59,17 +59,20 @@ Reference: [How do you install qt on ubuntu22.04](https://askubuntu.com/question
 4. Create a 'build' folder
 5. Run cmake-gui from the 'build' folder
 6. Load the opencv sources (from the unzipped file)
-7. Run *Configure' and update the required field (Refefnce: [Install LATEST OpenCV 4.8.0 | Ubuntu OpenCV Installation 2023
-](https://www.youtube.com/watch?v=X6cXBqIz464))
-8. Run *Generate*
-9. Run 'make -j8' (Use *nproc* to find out the number of available cores)
-10. The last command is: 'sudo make install'
+7. Run *Configure* and update the required field.
+
+Refefnces:
+* [Install LATEST OpenCV 4.8.0 | Ubuntu OpenCV Installation 2023](https://www.youtube.com/watch?v=X6cXBqIz464)
+* [How to Build and Install OpenCV from Source | Using Visual Studio and CMake](https://www.youtube.com/watch?v=_fqpYLM6SCw&t=2s)
+9. Run *Generate*
+10. Run 'make -j8' (Use *nproc* to find out the number of available cores)
+11. The last command is: 'sudo make install'
 
 To verify your installation was successfully done, run the following command: </br >
 ```
 pkg-config --modversion opencv4
 ```
-The output sould match the OpneCV version you have downlaoded and install.
+The output sould match the OpneCV version you have downloaded and install.
 
 # Running the code
 There are three ways to run the code.
